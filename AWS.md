@@ -1,4 +1,4 @@
-#### AWS Infrastructure with Terraform
+# AWS Infrastructure with Terraform
 
 ## Overview
 
@@ -221,5 +221,3 @@ output "instance_id" {
   value       = aws_instance.example.id
 }
 ```
----
-   
