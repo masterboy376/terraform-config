@@ -2,7 +2,7 @@
 
 ## Overview
 
-This file contains Terraform configurations to infrastructure on GCP. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
+This file contains Terraform configurations for infrastructure on GCP. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
 
 ## Prerequisites
 
@@ -228,8 +228,3 @@ output "instance_id" {
   value       = google_compute_instance.vm_instance.id
 }
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
