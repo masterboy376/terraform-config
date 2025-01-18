@@ -1,12 +1,8 @@
-Sure! Here's a detailed README for setting up production-grade infrastructure on Microsoft Azure using Terraform:
-
----
-
 # Azure Infrastructure with Terraform
 
 ## Overview
 
-This repository contains Terraform configurations to set up production-grade infrastructure on Azure. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
+This repository contains Terraform configurations to infrastructure on Azure. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
 
 ## Prerequisites
 
