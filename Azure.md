@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains Terraform configurations to infrastructure on Azure. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
+This file contains Terraform configurations to infrastructure on Azure. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
 
 ## Prerequisites
 
