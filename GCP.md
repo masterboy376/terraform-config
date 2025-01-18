@@ -1,5 +1,9 @@
 # GCP Infrastructure with Terraform
 
+## Overview
+
+This file contains Terraform configurations to infrastructure on GCP. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
+
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) (v1.0.0 or later)
