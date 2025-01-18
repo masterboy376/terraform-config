@@ -2,7 +2,7 @@
 
 ## Overview
 
-This file contains Terraform configurations to infrastructure on Azure. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
+This file contains Terraform configurations for infrastructure on Azure. It includes Virtual Machines (VMs), Blob Storage, Virtual Networks, and SQL Databases.
 
 ## Prerequisites
 
@@ -266,7 +266,3 @@ output "vm_id" {
   value       = azurerm_virtual_machine.example.id
 }
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
----
