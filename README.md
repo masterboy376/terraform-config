@@ -92,22 +92,22 @@ This repository contains Terraform configurations for managing infrastructure as
 
 1. **Initialize Terraform**:
     ```sh
-    docker run -it --rm -v $(pwd):/workspace my-terraform-image terraform init
+    docker run -it --rm -v $(pwd):/workspace my-terraform-container terraform init
     ```
 
 2. **Plan the Infrastructure**:
     ```sh
-    docker run -it --rm -v $(pwd):/workspace my-terraform-image terraform plan
+    docker run -it --rm -v $(pwd):/workspace my-terraform-container terraform plan
     ```
 
 3. **Apply the Configuration**:
     ```sh
-    docker run -it --rm -v $(pwd):/workspace my-terraform-image terraform apply
+    docker run -it --rm -v $(pwd):/workspace my-terraform-container terraform apply
     ```
 
 4. **Destroy the Infrastructure**:
     ```sh
-    docker run -it --rm -v $(pwd):/workspace my-terraform-image terraform destroy
+    docker run -it --rm -v $(pwd):/workspace my-terraform-container terraform destroy
     ```
 
 ## Directory Structure
